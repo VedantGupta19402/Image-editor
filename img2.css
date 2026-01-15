@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--bg-primary-color);
+    color: var(--text-primary-color);
+}
+
+.main {
+    width: 100%;
+}
+
+.main section {
+    width: 100%;
+    padding: var(--padding-2xl);
+    display: flex;
+    gap: var(--gutter-lg);
+}
+
+.btn {
+    padding: var(--padding-sm) var(--padding-lg);
+    border: none;
+    outline: none;
+    border-radius: var(--border-radius-md);
+    background-color: var(--bg-active-color);
+    cursor: pointer;
+}
+
+#lala {
+    background-color: var(--bg-danger-color);
+    color: var(--text-primary-color);
+}
+
+#nana {
+    background-color: var(--bg-water-color);
+    color: var(--text-primary-color);
+}
+
+#meow {
+    background-color: var(--bg-grass-color);
+    color: var(--text-primary-color);
+}
+
+.nav {
+    display: flex;
+    gap: var(--gutter-md);
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--gutter-lg);
+    width: 70%;
+}
+
+.image {
+    width: 100%;
+    padding: var(--padding-2xl);
+    aspect-ratio: 5/3;
+    background-color: var(--bg-secondary-color);
+    border-radius: var(--border-radius-xl);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    gap: var(--gutter-md);
+}
+
+#crazy {
+    font-size: var(--font-size-lg);
+}
+
+#icon {
+    font-size: 10rem;
+
+}
+
+.right {
+    width: 30%;
+    padding: var(--padding-lg);
+    border-radius: var(--border-radius-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gutter-md);
+}
+
+.filter {
+    width: 100%;
+
+}
+
+.main section .right .filter input {
+    width: 100%;
+    outline: none;
+    margin-top: var(--margin-sm);
+    appearance: none;
+}
+
+.right {
+    width: 30%;
+    padding: var(--padding-lg);
+    border-radius: var(--border-radius-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gutter-md);
+}
+
+.filter {
+    width: 100%;
+
+}
+
+.main section .right .filter input {
+    width: 100%;
+    outline: none;
+    margin-top: var(--margin-sm);
+    appearance: none;
+}
+
+.main section .right .filter input::-webkit-slider-thumb {
+    cursor: pointer;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: -9px;
+}
+
+.main section .right .filter input::-webkit-slider-runnable-track {
+    background-color: var(--bg-active-color);
+    height: 3px;
+    border-radius: 2px;
+
+}
+
+.main section .right .filters {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gutter-md);
+}
